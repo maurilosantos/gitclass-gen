@@ -21,7 +21,7 @@ public class Exercício03 {
 		
 		salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras*5) - descontos;
 		
-		System.out.println("\nSeu Salário Líquido é: "+salarioLiquido);
+		System.out.printf("\nSeu Salário Líquido é: %.2f",salarioLiquido);
 		System.out.println("\n Fim.");
 		
 	}

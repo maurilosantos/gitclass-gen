@@ -18,7 +18,7 @@ public class Exercício01 {
 		
 		novoSalario = salario + abono;
 		
-		System.out.println("\nSeu novo Salário é: "+novoSalario);
+		System.out.printf("\nSeu novo Salário é: %.2f",novoSalario);
 		System.out.println("\n Fim.");
 		
 	}
