@@ -24,33 +24,21 @@ public class Lista2Ex03Matrizes {
 			int [] elementosP = new int[3];
 			int [] elementosS = new int[3];
 			
+		
+			 	
+	 
+	  	for(int linha=0;linha<3;linha++) {
 			
-			System.out.println("\nDigite primeiro elemento: ");
-			matriz[0][0] = leia.nextInt();
+			for(int coluna=0;coluna<3;coluna++) {
+
+				System.out.println("\nDigite o "+(coluna+1)+"ª elemnento: ");
+				matriz[linha][coluna] = leia.nextInt();
+				
+				
+				}
+		}
+		
 			
-			System.out.println("\nDigite segundo elemento: ");
-			matriz[0][1] = leia.nextInt();
-			
-			System.out.println("\nDigite terceiro elemento: ");
-			matriz[0][2] = leia.nextInt();
-			
-			System.out.println("\nDigite quarto elemento: ");
-			matriz[1][0] = leia.nextInt();
-			
-			System.out.println("\nDigite quinto elemento: ");
-			matriz[1][1] = leia.nextInt();
-			
-			System.out.println("\nDigite sexto elemento: ");
-			matriz[1][2] = leia.nextInt();
-			
-			System.out.println("\nDigite sétimo elemento: ");
-			matriz[2][0] = leia.nextInt();
-			
-			System.out.println("\nDigite oitavo elemento: ");
-			matriz[2][1] = leia.nextInt();
-			
-			System.out.println("\nDigite nono elemento: ");
-			matriz[2][2] = leia.nextInt();
 			
 			
 			
@@ -90,7 +78,7 @@ public class Lista2Ex03Matrizes {
 	        }
 			
 			
-			System.out.println("\nElementos da Diagonal Secundária:: "+elementosS);
+			System.out.println("\nElementos da Diagonal Secundária:: ");
 			
 			for (int i = 0; i < elementosP.length; i++) {
 	            System.out.print(elementosS[i] + " ");
