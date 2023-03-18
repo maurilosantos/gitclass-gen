@@ -40,7 +40,7 @@ public class Lista1Ex1Vetores {
 			if (num == vetor[i]) {
 			System.out.println("\nO número "+num+" está localizado na posição: "+i);
 			encontrou = true;
-			break;  
+			  
 			}
 		}
 		
