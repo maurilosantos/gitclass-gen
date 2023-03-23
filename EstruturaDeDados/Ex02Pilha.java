@@ -45,7 +45,8 @@ public class Ex02Pilha {
 			switch (opcao) {
 				case 1:
 					System.out.println("Digite o nome do novo Livro: \n\n");
-					livro = leia.next();
+					leia.nextLine();
+					livro = leia.nextLine();
 					pilhaLivros.push(livro);
 					System.out.println("\nLivro Adicionado!");
 					

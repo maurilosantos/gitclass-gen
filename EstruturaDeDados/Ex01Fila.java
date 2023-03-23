@@ -44,7 +44,8 @@ public class Ex01Fila {
 			switch (opcao) {
 				case 1:
 					System.out.println("Digite o nome do Novo Cliente: \n\n");
-					cliente = leia.next();
+					leia.nextLine();
+					cliente = leia.nextLine();
 					
 					fila.add(cliente);
 					System.out.println("\nCliente Adicionado!");
