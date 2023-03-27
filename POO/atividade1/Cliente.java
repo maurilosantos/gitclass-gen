@@ -62,9 +62,9 @@ public class Cliente {
         this.telefone = telefone;
     }
     
-    // método para vizualizar todos os atributos do objeto da classe cliente: 
+    // método para visualizar todos os atributos do objeto da classe cliente: 
    
-    public void vizualizar() {
+    public void visualizar() {
     	System.out.println("\n -----> Nome: "+nomeCliente);
     	System.out.println("\n -----> CPF: "+cpf);
     	System.out.println("\n -----> Idade: "+idade);

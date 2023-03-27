@@ -69,14 +69,7 @@ public class Funcionario {
 	    }
 	
 	
-	    public void vizualizar() {
-	    	System.out.println("\n -----> Nome: "+nome);
-	    	System.out.println("\n -----> Cargo: "+cargo);
-	    	System.out.println("\n -----> Salário: $"+salario);
-	    	System.out.println("\n -----> CPF: "+cpf);
-	    	System.out.println("\n -----> Telefone: "+telefone);
-	    	System.out.println("\n");
-	    }
+	  
 	
 	
 	
