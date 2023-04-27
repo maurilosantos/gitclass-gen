@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.projetogames.lojadegames.model.Usuario;
 import com.projetogames.lojadegames.model.Categoria;
 
 import jakarta.persistence.Entity;
@@ -39,6 +40,10 @@ public class Produto {
 	@ManyToOne
 	@JsonIgnoreProperties("produto")
 	private Categoria categoria;
+	
+	@ManyToOne
+	@JsonIgnoreProperties("produto")
+	private Usuario usuario;
 	
 	@NotNull
 	private float preco;
@@ -90,6 +95,16 @@ public class Produto {
 	public void setPreco(float preco) {
 		this.preco = preco;
 	}
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+	
+	
 	
 	
 }
