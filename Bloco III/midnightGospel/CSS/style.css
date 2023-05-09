@@ -1,13 +1,11 @@
 *{
     background-color: #f0b2f0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-nav {
-   text-align: center; 
+    text-align: justify;
 }
 
 #menu li {
+    
     display: inline-block; 
     margin-right: 20px;     
     color:rgb(65, 1, 65); 
@@ -23,15 +21,46 @@ nav {
     font-size: 23px;
 }
 
-header{
-   text-align: justify;
-}
-
 header h2 {
     font-size:60px; 
     text-align: center;
 }
 
 header p {
-    margin: 10px 100px;
+    margin: 14px 100px;
 }
+
+section h3{
+    text-align: center;
+}
+
+section iframe{
+    display: flex;
+    margin: auto;
+}
+
+.sobre img {
+    display: flex; 
+    margin: auto;
+    width:300px;
+}
+
+.sobre p {
+    margin: 14px 100px;
+}
+
+.curiosidades p {
+    margin: 14px 100px;
+}
+
+.curiosidades ul {
+    margin: 14px 100px;
+}
+
+/* PÁGINA DE CONTATO: */
+
+#map-container {
+    
+    width: 50%; /* define a largura da div */
+    margin: 0 auto; /* centraliza a div */
+  }
