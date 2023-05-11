@@ -3,7 +3,22 @@ const email = document.querySelector('#email');
 const textarea = document.getElementById("texto");
 const contador = document.getElementById("contador");
 
-nome.indexOf
+
+
+//validando o email: 
+function validaEmail () {
+  let txtEmail = document.querySelector('#txtEmail')
+  if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1){ 
+      txtEmail.innerHTML = 'E-mail inválido'
+      email.style.color = 'red'
+      email.style.border='3px solid red'
+  } else {
+      txtEmail.innerHTML = 'E-mail válido'
+      email.style.color = 'green'
+      email.style.border='3px solid green'
+      emailOk = true
+  }
+  }
 
 function validaNome() {
     let txtNome = document.querySelector('#txtNome');
