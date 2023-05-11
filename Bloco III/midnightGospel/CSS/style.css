@@ -5,7 +5,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
 }
-
+#menu{
+    text-align: center;
+}
 #menu li {
     
     display: inline-block; 
