@@ -3,6 +3,8 @@ const email = document.querySelector('#email');
 const textarea = document.getElementById("texto");
 const contador = document.getElementById("contador");
 
+nome.indexOf
+
 function validaNome() {
     let txtNome = document.querySelector('#txtNome');
     console.log(nome.value);
